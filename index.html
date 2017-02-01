@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Style Sheets! -->
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style/animate.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<!-- /Style Sheets -->
+	<title></title>
+</head>
+
+<body id="body">
+	<div class="text-center">
+		<h1 class="header1">Post your own comment</h1><br>
+		<img src="https://s-media-cache-ak0.pinimg.com/originals/e9/cf/31/e9cf3163400d41a93a70b23d73717156.jpg" height="300" width="400" class="animated fadeIn" id="headerImg">
+	</div>
+
+	<div class="col-lg-12 text-center" id="comment">
+		<input type="text" id="name" placeholder="Name" class="text-center"><br>
+		<textarea id="commentText" cols="50" rows="5" placeholder="comment" class="text-center"></textarea><br>
+		<input type="text" id="pict" class="text-center" placeholder="image url"><br>
+		<button class="btn btn-lg btn-default" onclick="getComment()">Post Comment!</button><br>		
+	</div>	
+
+	<div class="row">
+		<div class="col-lg-12 text-center" id="postComment">
+			
+		</div>
+	</div>
+	
+
+
+
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
